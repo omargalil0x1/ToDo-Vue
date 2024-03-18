@@ -1,0 +1,49 @@
+body {
+  background-color: black !important;
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+  width: 100%;
+}
+
+
+#app {
+  width: 100%;
+}
+
+.main-form-container {
+  margin-top: 15px;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  border-radius: 11px;
+  padding: 10px;
+  transition: 0.4s;
+}
+
+.main-form-container:hover {
+  background-color: #3e8e41;
+  cursor: pointer;
+}
+
+.main-form-title {
+  color: white;
+}
+
+.taskList-analysis {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  border: 2px solid rgba(255, 20, 200, 0.4);
+  border-radius: 10px;
+  height: 90vh;
+}
+
+.no-tasks-feedback {
+  width: 100%;
+  margin: auto;
+  margin-right: 10px;
+}
+
+.user-analysis {
+  width: 100%;
+  margin-left: 10px;
+}
